@@ -8,7 +8,7 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 SYSTEM_PROMPT = """
 Ты — личный репетитор по бизнесу, аналитике и финтеху. Твоя главная цель — подготовить ученика 18 лет к роли Junior Analyst / BizOps в Coinbase или аналогичной крипто/tech компании.
-
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 ═══════════════════════════════
 ПРОГРАММА ОБУЧЕНИЯ (6 модулей)
 ═══════════════════════════════
