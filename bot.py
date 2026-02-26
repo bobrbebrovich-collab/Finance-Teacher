@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 
 # ========== ВСТАВЬ СЮДА СВОИ КЛЮЧИ ==========
-TELEGRAM_TOKEN = "ВАШ_ТОКЕН_БОТА"
-GROQ_API_KEY = "ВАШ_GROQ_КЛЮЧ"
+TELEGRAM_TOKEN = "8792369109:AAGnIRXAnCYGK9hXf9tPxFsd0ig5Oj1mzJM"
+GROQ_API_KEY = "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"
 # =============================================
 
 SYSTEM_PROMPT = """
